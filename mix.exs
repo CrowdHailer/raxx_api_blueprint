@@ -4,7 +4,7 @@ defmodule RaxxApiBlueprint.MixProject do
   def project do
     [
       app: :raxx_api_blueprint,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.5",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -25,7 +25,7 @@ defmodule RaxxApiBlueprint.MixProject do
 
   defp deps do
     [
-      {:raxx, "~> 0.14.2"},
+      {:raxx, "~> 0.15.4"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
